@@ -1,0 +1,120 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #ffffff;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.game-container {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.restart-button {
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    background: lightgreen;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+header{
+    margin: 5px;
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.playing-board {
+    max-width: 784px;
+	background: #718F71;
+    padding: 5px;
+    margin: 5px;
+	border-radius: 5px;
+	box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 0 3em;
+}
+
+.playing-board .square {
+    flex: 1 0 12%; 
+	margin: 10px;
+	font-size: 0;
+	color: #ffffff;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+img {
+    height: 156px;
+    width: 156px;
+    opacity: 0.6;
+    cursor: pointer;
+    padding: 10px;
+}
+
+li.zeppi-green {
+    background-color: green !important;
+}
+
+li.zeppi-yellow {
+    background-color: yellow !important;
+}
+
+li.zeppi-blue {
+    background-color: blue !important;
+}
+
+li.zeppi-gray {
+    background-color: gray !important;
+}
+
+li.zeppi-red {
+    background-color: red !important;
+}
+
+li.zeppi-purple {
+    background-color: purple !important;
+}
+
+li.zeppi-orange {
+    background-color: orange !important;
+}
+
+li.zeppi-pink {
+    background-color: pink !important;
+}
+
+.selected{
+
+}
+
+.found{
+    cursor: none;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+
+
+
