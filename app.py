@@ -8,4 +8,5 @@ def index():
     return render_template("index.html")
 
 
-app.run()  # if you use the port parameter, delete it before deploying to Heroku
+if __name__ == '__app__':
+    app.run()  # if you use the port parameter, delete it before deploying to Heroku
